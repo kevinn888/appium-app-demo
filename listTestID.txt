@@ -1,0 +1,10 @@
+HOME SCREEN:
+-homeButton
+-ViewHomeScreen
+
+CALCULATION SCREEN:
+-priceInput
+-discountInput
+-totalInfo
+-calculationButton
+-NaNInfo
