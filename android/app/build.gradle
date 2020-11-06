@@ -13,7 +13,7 @@ import com.android.build.OutputFile
  *
  * project.ext.react = [
  *   // the name of the generated asset file containing your JS bundle
- *   bundleAssetName: "index.android.bundle",
+ *   bundleAssetName: "index.androidjs.bundle",
  *
  *   // the entry file for bundle generation. If none specified and
  *   // "index.android.js" exists, it will be used. Otherwise "index.js" is

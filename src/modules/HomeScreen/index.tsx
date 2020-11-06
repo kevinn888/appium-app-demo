@@ -9,8 +9,8 @@ function HomeScreen(props) {
     }
     return (
         <View accessibilityLabel="ViewHomeScreen" testID="ViewHomeScreen" style={{flex: 1, justifyContent: 'center'}}>
-            <Button accessibilityLabel="homeButton" testID="homeButton" onPress={navigate} label='perhitungan diskon'/>
-        </View>
+            <Button accessibilityLabel="homeButton" testID="homeButton" onPress={navigate} label='calculasi'/>
+        </View> 
     )
 }
 

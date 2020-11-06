@@ -2,6 +2,12 @@ package com.appium;
 
 import android.app.Application;
 import android.content.Context;
+import android.util.Log;
+
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
+import com.facebook.react.BuildConfig;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
@@ -32,6 +38,11 @@ public class MainApplication extends Application implements ReactApplication {
         @Override
         protected String getJSMainModuleName() {
           return "index";
+        }
+
+        @Override
+        protected String getJSBundleFile() {
+            return HotSwapUtil.getJSBundleFile();
         }
       };
 
